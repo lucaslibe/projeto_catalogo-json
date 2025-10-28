@@ -1,9 +1,3 @@
-'''
-Criar um programa de terminal (linha de comando)
-que permite ao usuário adicionar,
-listar, buscar e excluir itens (ex: filmes, jogos)
-de um "banco de dados" salvo em um arquivo catalogo.json.
-'''
 import json
 nome_arq = 'catalogo.json'
 def carregar_dados():
