@@ -1,4 +1,4 @@
-# 🚀 Projeto Gerenciador de Catálogo (Python + JSON)
+# Projeto Gerenciador de Catálogo (Python + JSON)
 
 > **Status:** Concluído ✔️
 
@@ -8,7 +8,7 @@ Este projeto serviu como a base fundamental (Etapa 1) para a minha jornada de ap
 
 ---
 
-## 🛠️ Funcionalidades
+## Funcionalidades
 
 A aplicação permite ao usuário gerenciar um catálogo de itens (como jogos, filmes, livros, etc.) através de um menu interativo com as seguintes operações:
 
@@ -20,7 +20,7 @@ A aplicação permite ao usuário gerenciar um catálogo de itens (como jogos, f
 
 ---
 
-## 🧠 O que eu aprendi e apliquei
+## O que eu aprendi e apliquei
 
 Este projeto foi um desafio prático focado em ir além da teoria. As principais habilidades e conceitos aplicados foram:
 
@@ -37,7 +37,7 @@ Este projeto foi um desafio prático focado em ir além da teoria. As principais
 
 ---
 
-## 🏃‍♂️ Como Rodar
+## Como Rodar
 
 Este projeto usa apenas bibliotecas padrão do Python (como `json`).
 
@@ -55,10 +55,3 @@ Este projeto usa apenas bibliotecas padrão do Python (como `json`).
     ```
 
 ---
-
-## 🔮 Próximos Passos
-
-O uso de JSON para persistência é ineficiente em larga escala (requer leitura e reescrita total do arquivo para cada operação).
-
-A próxima evolução natural deste projeto, na qual estou trabalhando, é:
-* **[Projeto 2: SQL]** Migrar o "motor" de persistência de dados de JSON para um banco de dados relacional **SQLite**, substituindo a lógica de `json.load/dump` por consultas SQL (`INSERT`, `SELECT`, `DELETE`, `WHERE`).
